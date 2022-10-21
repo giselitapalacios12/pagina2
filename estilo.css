@@ -3,7 +3,7 @@ body{
 }
 header{
     color:yellowgreen;
-    background-image:url(/image/fondo2.jpg);
+    background-image:url(./image/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
