@@ -1,37 +1,35 @@
 body{
-    background-image: url("https://www.gratistodo.com/wp-content/uploads/2021/10/planeta-con-aro-gratistodo.com_.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    margin:0;
 }
 header{
-    background-color:pink;
-    text-align:center;
-    color: red;
+    color:yellowgreen;
+    background-image:url(/image/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+    font-size: x-large;
+    font-family:fantasy;
+    
 }
-img{
-    padding: 20px 20px 0 20px ;
-}
-h1,img{
-    display:inline-block;
-}
-.navbar{
+.Menu{
     width: 100%;
     display: flex;
     align-items: center;
-    background-color:midnightblue;
+    background-color:rgb(6, 6, 87);
 }
-.navbar ul li{
+.Menu ul li{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     position: relative;
 }
-.navbar ul li a{
+.Menu ul li a{
     text-decoration: none;
     color:aliceblue;
 }
-.navbar ul li a::before{
+.Menu ul li a::before{
     content: "";
     height: 3px;
     width: 0%;
@@ -41,33 +39,64 @@ h1,img{
     bottom: -12px;
     transition: 0.4s ease-out;
 }
-.navbar ul li a:hover::before{
+.Menu ul li a:hover::before{
     width: 100%;
+}
+.Menu i{
+    padding: 5px;
 }
 h2{
     color:red;
-    padding: 10px 0 0 0 ;
+    padding:20px;
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
 }
 h4{
     color:red;
+    padding: 10px 20px 10px 20px;
     text-decoration:underline;
-    text-transform:initial ;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-style: italic;
 }
 p{
-    color:aquamarine;
+    color:midnightblue;
     text-align: justify;
-    word-spacing: 3px;
-    line-height: 23px;
+    padding: 5px 20px 5px 20px;
+    font-family:Cambria, Cochin, 'Times New Roman';
 }
-footer {
+img{
+    width: 400px;
+    height: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.pie-pagina{
     width:100%;
-    background-color:grey;
-    padding: 20px 60px 20px 40px;
-    text-align: justify;
+    background-color:black;
+    display: flex;
+    padding: 80px;
 }
-footer i{
-    padding: 10px;
+.pie-pagina .column1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-gap: 30px;
+    color: aliceblue;
+}
+.pie-pagina .column2{
+    width: 100%;
+    margin: auto;
+    display:grid;
+    grid-gap: 30px;
+    color: aliceblue;
+}
+.pie-pagina .row label:hover{
+    background-color: coral;
+    padding: 20px;
+}
+.pie-pagina .row2 label:hover{
+    background-color: coral;
+    padding: 20px;
 }
